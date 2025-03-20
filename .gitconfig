@@ -1,0 +1,12 @@
+[user]
+	name = Enzo G
+	email = gl@enzog.mozmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
+[grep]
+	lineNumber = true
+[alias]
+	cm = commit -m
+	l = log --graph --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\" --abbrev-commit
