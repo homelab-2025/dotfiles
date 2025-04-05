@@ -5,6 +5,10 @@
 	defaultBranch = main
 [core]
 	editor = code --wait
+	#windows
+	autocrlf = true
+	#linux
+	#autocrlf = input
 [grep]
 	lineNumber = true
 [alias]
